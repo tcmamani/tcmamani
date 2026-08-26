@@ -1,3 +1,9 @@
+# Hi, I'm Teresa Mamani
+
+I'm a Computer Science student at Wright State University who enjoys learning how computers work and exploring new things in coding.
+
+I like practicing coding by watching tutorials and working onmy own projects. I also enjoy creating websites.
+
 ## Hi there 👋
 
 <!--
