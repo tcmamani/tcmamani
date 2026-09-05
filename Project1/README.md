@@ -39,7 +39,7 @@ My Command Line Shell is: Powershell
 
 1. Full / absolute path to your user's home directory: pwd
     /home/teresamr
-2. Create a directory named `DirA`: mkdir DirA
+2. Create a directory named `DirA`: mkdir DirA <br>
     ls
         Dir A
 3. Create a directory named `Dir B`: mkdir 'Dir B'
