@@ -37,52 +37,52 @@ My Command Line Shell is: Powershell
 
 ### Navigating My OS on the Command Line
 
-1. Full / absolute path to your user's home directory: pwd
+1. Full / absolute path to your user's home directory: pwd <br>
     /home/teresamr
 2. Create a directory named `DirA`: mkdir DirA <br>
-    ls
+    ls <br>
         Dir A
-3. Create a directory named `Dir B`: mkdir 'Dir B'
-    ls
-    'Dir B'
-4. Go into `DirA`: cd DirA
-    pwd
+3. Create a directory named `Dir B`: mkdir 'Dir B' <br>
+    ls <br>
+        'Dir B'
+4. Go into `DirA`: cd DirA <br>
+    pwd <br>
         /home/teresamr/DirA
-5. Go into `Dir B` from `DirA`: cd ../DirB
-    pwd
+5. Go into `Dir B` from `DirA`: cd ../DirB <br>
+    pwd <br>
         /home/teresamr/Dir B
-6. Return to your user's home directory: cd ~
-    pwd
+6. Return to your user's home directory: cd ~ <br>
+    pwd <br>
         /home/teresamr
-7. Create a file named `test.txt`: touch test.txt
-    ls -l test.txt
+7. Create a file named `test.txt`: touch test.txt <br>
+    ls -l test.txt <br>
         -rw-r--r-- 1 teresamr teresamr 0 Sep  5 00:57 test.txt
-8. Move the file named `test.txt` into `DirA`: mv test.txt DirA/
-    ls -l DirA
+8. Move the file named `test.txt` into `DirA`: mv test.txt DirA/ <br>
+    ls -l DirA <br>
         -rw-r--r-- 1 teresamr teresamr 0 Sep  5 00:57 test.txt
-9. Contents of `test.txt`: vim DirA/test.txt
-    Press i to insert text
-    Text inserted
-    Press Esc and type :wq
+9. Contents of `test.txt`: vim DirA/test.txt <br>
+    Press i to insert text <br>
+    Text inserted <br>
+    Press Esc and type :wq <br>
     cat DirA/test.txt
 ```
 Hello, This is Teresa.
 I am from Peru.
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp DirA/test.txt DirA/copy.txt
-11. View the contents of `DirA`: ls DirA/
-    copy.txt    test.txt
-    cat DirA/copy.txt
-        Hello, this is Teresa.
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp DirA/test.txt DirA/copy.txt <br>
+11. View the contents of `DirA`: ls DirA/ <br>
+    copy.txt    test.txt <br>
+    cat DirA/copy.txt <br>
+        Hello, this is Teresa. <br>
         I am from Peru.
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp DirA/test.txt 'Dir B'/fodder.txt
-    ls 'Dir B'/
-        fodder.txt
-    cat 'Dir B'/fodder.txt
-        Hello, this is Teresa.
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp DirA/test.txt 'Dir B'/fodder.txt <br>
+    ls 'Dir B'/ <br>
+        fodder.txt <br>
+    cat 'Dir B'/fodder.txt <br>
+        Hello, this is Teresa. <br>
         I am from Peru.
-13. Delete / remove both `fodder.txt` AND `Dir B`: rm -r 'Dir B'
-    ls
+13. Delete / remove both `fodder.txt` AND `Dir B`: rm -r 'Dir B' <br>
+    ls <br>
         DirA
 
 ## Citations
